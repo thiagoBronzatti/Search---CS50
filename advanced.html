@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <div class="navbar">
+            <div class="menu">
+                <a href="index.html">Google Search</a>
+
+            </div>
+        </div>
+
+
+        <div class="advtop">
+            <h2 id="advh2">
+                Advanced Search
+            </h2>
+        </div>
+        <h3 id="advh3">Find pages with...</h3>
+
+
+        <form action="https://google.com/search">
+            <div class="advrow">
+
+                <div class="advp">
+                    <p>all these words:</p>
+                </div>
+
+                <input class="advinput" type="text" name="as_q">
+            </div>
+
+            <div class="advrow">
+
+                <div class="advp">
+                    <p>this exact word or phrase:</p>
+                </div>
+
+                <input class="advinput" type="text" name="as_epq">
+            </div>
+
+            <div class="advrow">
+
+                <div class="advp">
+                    <p>any of these words:</p>
+                </div>
+
+                <input class="advinput" type="text" name="as_oq">
+            </div>
+
+            <div class="advrow">
+
+                <div class="advp">
+                    <p>none of these words:</p>
+                </div>
+
+                <input class="advinput" type="text" name="as_eq">
+            </div>
+
+            <div id="advbtndiv">
+                <input id="advbtn"type="submit" value="Advanced Search">
+            </div>
+
+        </form>
+
+    </body>
+</html>
+
+<!--as_q input=all_these_words
+#as_epq input= this_exact_word_or_phrase
+#as_oq any of these words
+#as_eq none of these words-->
